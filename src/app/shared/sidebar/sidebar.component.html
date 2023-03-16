@@ -1,0 +1,10 @@
+  <div class="bg-indigo-900 text-gray-300 text-center px-3 py-3 h-full" id="sidebar">
+    <h3 class="text-xl font-bold">Gifs-app</h3>
+
+    <hr>
+    <div class="divide-y divide-gray-400 py-3">
+      <a *ngFor="let item of historial" (click)="buscar(item)" href="#" class="block py-2 px-4 text-gray-300 hover:bg-pink-600">{{item | titlecase}}</a>
+  </div>
+</div>
+
+
